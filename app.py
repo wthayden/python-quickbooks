@@ -6,8 +6,8 @@ from quickbooks import QuickBooks
 app = Flask(__name__)
 
 # Your QuickBooks app credentials
-CLIENT_ID = 'YOUR_CLIENT_ID'
-CLIENT_SECRET = 'YOUR_CLIENT_SECRET'
+CLIENT_ID = 'ABbquctIhSkjkFvKJbIFq0DJjWSzvfnRPnUf63P88s7J9sqni4'
+CLIENT_SECRET = 'BCS2qM6wReKxtrI8z1r136NllvXTuqKFkPsQqM2f'
 REDIRECT_URI = 'http://localhost:5000/callback'
 ENVIRONMENT = 'sandbox'  # or 'production'
 
